@@ -43,7 +43,7 @@ body,html {
 }
 
 .container {
-    border: solid pink 2px;
+    /* border: solid pink 2px; */
     padding: 10px;
     width: 100%;
 }
@@ -71,4 +71,24 @@ hr {
     margin-left: 12.5%;
     width: 75%;
     border: 1px solid #E4B44C;
+}
+
+.box {
+    padding: 10px;
+    border: solid white 2px;
+    border-radius: 20px;
+}
+
+.fav-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.image-small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
